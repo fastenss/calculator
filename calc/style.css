@@ -1,5 +1,5 @@
 body {
-   background-color: black;
+   background-color: #ffb9c5;
    margin: 0px;
 }
 
@@ -39,13 +39,12 @@ button:hover {
    color: black;
 }
 
-
 .seperateSides {
    display: flex;
    padding-bottom: 60px;
 }
 
-.digits {
+.leftButtons {
    margin-left: 48px;
    display: flex;
    flex-wrap: wrap;
@@ -58,4 +57,3 @@ button:hover {
    flex-direction: column;
    margin-right: 48px;
 }
-
