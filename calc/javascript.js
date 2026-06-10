@@ -79,10 +79,13 @@ operators.forEach(btn => {
 
 // equal button calls and returns operate()
 equals.addEventListener("click", function() {
+   selectedOperator.style.backgroundColor = '';
+   selectedOperator.style.color = '';
    let result = operate(operation, Number(firstNum), Number(secondNum));
    if (!Number.isInteger(result))
       result = result.toFixed(2);
    displayElement.textContent = result;
+   
 });
 
 // clear button resets display and stored variables
